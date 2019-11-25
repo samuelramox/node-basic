@@ -5,19 +5,33 @@ A simple API project using Node.js.
 ## Install
 
 Clone this project
+
 ```
 git clone git@github.com:samuelramox/node-basic.git
 ```
 
-And install the dependencies
+Install the dependencies
+
 ```
 npm i
 ```
 
-## Tools used in the project:
+You need to put the database password [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and token for `jsonwebtoken` in the [config.js](config/config.js) file
+
+```
+const bd_password = '';
+const jwt_password = '';
+```
+
+Finally, run this project:
+
+```
+npm run start
+```
+
+## Resources:
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com)
 - [Mongoose](https://mongoosejs.com)
 - [MongoDB](https://www.mongodb.com)
-
