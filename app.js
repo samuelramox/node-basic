@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const config = require('./config/config');
 
-const url =
-  'mongodb+srv://admin:<password>@clusterapi-wsstp.mongodb.net/test?retryWrites=true&w=majority';
+const url = config.bd_url;
 const options = {
   reconnectTries: Number.MAX_VALUE,
   reconnectInterval: 500,
