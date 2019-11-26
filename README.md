@@ -1,6 +1,6 @@
 # Node.js Basic
 
-A simple API project using Node.js.
+A simple API project using [Node.js](https://nodejs.org/).
 
 ## Install
 
@@ -16,7 +16,7 @@ Install the dependencies
 npm i
 ```
 
-You need to put the database password [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and token for `jsonwebtoken` in the [config.js](config/config.js) file
+You need to put the database password (I use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)) and token for `jsonwebtoken` in the [config.js](config/config.js) file
 
 ```
 const bd_password = '';
